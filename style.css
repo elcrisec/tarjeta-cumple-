@@ -3,7 +3,7 @@
 
 body {
 	font-family: 'Indie Flower', cursive !important;
-  background: #FDE3A7;
+  background: #ccf1f2;
 	margin: 0px;
 	padding: 0px;
 }
@@ -18,7 +18,7 @@ h4 {
 	font-family: 'Amatic SC', cursive !important;
 }
 
-.color1{color:#1BBC9B}
+.color1{color:#542398}
 .color2{color:#C0392B}
 
 
@@ -83,7 +83,7 @@ h4 {
 }
 
 .card .imgBox img {
-	min-width: 250px;
+	min-width: 300px;
 	max-height: 400px;
 }
 
@@ -104,7 +104,7 @@ h4 {
 	box-sizing: border-box;
 	padding: 0 0 0 10px;
 	z-index: -1;
-	margin-top: 70px;
+	margin-top: 0px;
 }
 
 .card .details p {
@@ -120,4 +120,10 @@ h4 {
 
 .text-right {
 	text-align: right;
+}
+
+.card .details img {
+	min-width: 120px;
+	max-height: 120px;
+	padding-left: 100px;
 }
